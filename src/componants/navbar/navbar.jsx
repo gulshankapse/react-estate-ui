@@ -8,7 +8,7 @@ function Navbar() {
             <div className="left">
                 <a href="/" className="logo">
                    <img src="/logoOLD.png" alt="img" />
-                   <span>HeavenSeek</span>
+                   <span>HavenSeek</span>
                 </a>
                 <a href="/">Home</a>
                 <a href="/">About</a>

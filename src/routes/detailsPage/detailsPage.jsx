@@ -36,63 +36,63 @@ function DetailsPage() {
          </div>
          <div className="features">
             <div className="wapper">
-               <p className="title">General</p>
+               <p className="title">Property Overview</p>
                <div className="listvertical">
                   <div className="feature">
-                     <img src="/utility.png" alt="" />
+                     <img src="/tools.png" alt="" />
                      <div className="featureText">
                         <span>Utilities</span>
                         <p>Renter is responsible</p>
                      </div>
                   </div>
                   <div className="feature">
-                     <img src="/pet.png" alt="" />
+                     <img src="/cat.png" alt="" />
                      <div className="featureText">
                         <span>Pet Policy</span>
                         <p>Pets Allowed</p>
                      </div>
                   </div>
                   <div className="feature">
-                     <img src="/fee.png" alt="" />
+                     <img src="/fees.png" alt="" />
                      <div className="featureText">
                         <span>Property Fees</span>
                         <p>Must have 3X the rent in total household income</p>
                      </div>
                   </div>
                </div>
-               <p className="title">Room Sizes</p>
+               {/* <p className="title">Room Sizes</p> */}
                <div className="sizes">
                   <div className="size">
-                     <img src="/size.png" alt="" />
+                     <img src="/maximize.png" alt="" />
                      <span>80sq Ft</span>
                   </div>
                   <div className="size">
-                     <img src="/bed.png" alt="" />
+                     <img src="/dbed.png" alt="" />
                      <span>2 Bed</span>
                   </div>
                   <div className="size">
-                     <img src="/bath.png" alt="" />
+                     <img src="/bathtub.png" alt="" />
                      <span>1 Bathroom</span>
                   </div>
                </div>
                <p className="title">Nearby Places</p>
                <div className="listhorizontal">
                <div className="feature">
-                     <img src="/school.png" alt="" />
+                     <img src="/schooll.png" alt="" />
                      <div className="featureText">
                         <span>School</span>
                         <p>250m away</p>
                      </div>
                   </div>
                   <div className="feature">
-                     <img src="/bus.png" alt="" />
+                     <img src="/buss.png" alt="" />
                      <div className="featureText">
                         <span>Bus Stop</span>
                         <p>100m away</p>
                      </div>
                   </div>
                   <div className="feature">
-                     <img src="/restaurant.png" alt="" />
+                     <img src="/utensils.png" alt="" />
                      <div className="featureText">
                         <span>Restaurant</span>
                         <p>300m away</p>

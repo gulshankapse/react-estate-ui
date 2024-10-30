@@ -2,6 +2,10 @@ import { Marker, Popup } from "react-leaflet"
 import "./pin.scss"
 import { Link } from "react-router-dom"
 
+function formatPrice(price) {
+  return price.toLocaleString("en-IN");
+} 
+
 function Pin({item}) {
     return (
       <Marker position={[item.latitude , item.longitude]}>
@@ -11,7 +15,7 @@ function Pin({item}) {
                <div className="textcontainer">
                   <Link to={`/${item.id}`}>{item.title}</Link>
                   <span>{item.bedrooms} Bedroom</span>
-                  <b>{item.price}</b>
+                  <b>₹ {formatPrice(item.price)}</b>
                </div>
            </div>
         </Popup>

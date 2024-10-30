@@ -7,7 +7,7 @@ function HomePage() {
          <div className="textContainer">
            <div className="wrapper">
               <h1 className="tagline">
-                Discover your perfect haven with HeavenSeek
+                Discover your perfect haven with HavenSeek
               </h1>
               <p>
                  Welcome to HeavenSeek, where your dream property
